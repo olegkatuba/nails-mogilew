@@ -1,0 +1,381 @@
+/* line 1, scss/index.scss */
+body {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px; }
+
+/* line 9, scss/index.scss */
+header {
+  margin-bottom: -12px;
+  position: relative;
+  z-index: 2; }
+  /* line 13, scss/index.scss */
+  header div.content {
+    padding: 30px 60px 0;
+    box-sizing: border-box;
+    max-width: 1110px;
+    margin: auto; }
+    /* line 18, scss/index.scss */
+    header div.content > div {
+      display: flex;
+      justify-content: space-between; }
+      /* line 21, scss/index.scss */
+      header div.content > div div.social {
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-right: 25px; }
+        /* line 27, scss/index.scss */
+        header div.content > div div.social div {
+          margin: 5px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-position: 50%;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      /* line 37, scss/index.scss */
+      header div.content > div div.logo {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 50%;
+        background-image: url("../img/file(3).png");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 0 40px black; }
+      /* line 48, scss/index.scss */
+      header div.content > div div.other {
+        width: 200px; }
+    /* line 52, scss/index.scss */
+    header div.content hr {
+      margin: 30px 0 10px; }
+    /* line 55, scss/index.scss */
+    header div.content nav {
+      max-width: 80%;
+      margin: auto;
+      text-align: center; }
+      /* line 59, scss/index.scss */
+      header div.content nav a {
+        font-size: 16px;
+        margin: 5px; }
+
+/* line 69, scss/index.scss */
+main section svg.triangle-up {
+  position: relative;
+  z-index: 1;
+  margin-bottom: -8px;
+  width: 100%;
+  height: 70px; }
+
+/* line 76, scss/index.scss */
+main section svg.triangle-down {
+  position: relative;
+  z-index: 1;
+  margin-top: -8px;
+  width: 80%;
+  margin-left: 10%;
+  height: 50px; }
+
+/* line 84, scss/index.scss */
+main section h1,
+main section h2,
+main section h3 {
+  text-align: center;
+  font-family: Lobster;
+  font-weight: 300; }
+
+/* line 91, scss/index.scss */
+main section.gradient {
+  background: linear-gradient(180deg, #c2b8d0, #dcf3de); }
+
+/* line 95, scss/index.scss */
+main section.faq img {
+  height: 180px;
+  margin: 20px;
+  border-radius: 30px; }
+
+/* line 100, scss/index.scss */
+main section.faq h3 {
+  text-align: start;
+  text-indent: 20px;
+  margin: 50px 0; }
+
+/* line 105, scss/index.scss */
+main section.faq p {
+  margin: 50px 0; }
+
+/* line 109, scss/index.scss */
+main section.main-background {
+  background-image: url("https://s.lpmtr.ru/files/3/2/a/32a87087eaf9ca49e46e964a1f12199d.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  /* line 115, scss/index.scss */
+  main section.main-background div.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    background: linear-gradient(180deg, #d9a7c7, #fffcdc); }
+
+/* line 125, scss/index.scss */
+main section div.content {
+  padding: 60px 30px;
+  box-sizing: border-box;
+  max-width: 1110px;
+  margin: auto; }
+  /* line 130, scss/index.scss */
+  main section div.content.main {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    /* line 136, scss/index.scss */
+    main section div.content.main > div {
+      width: 300px;
+      flex-grow: 1;
+      min-width: 320px; }
+      /* line 140, scss/index.scss */
+      main section div.content.main > div.divide {
+        max-width: 0;
+        min-width: 0;
+        margin: 50px; }
+    /* line 146, scss/index.scss */
+    main section div.content.main form {
+      max-width: 500px;
+      padding: 35px;
+      margin: auto;
+      background-color: #ffe0cf;
+      border-radius: 32px; }
+      /* line 152, scss/index.scss */
+      main section div.content.main form h2 {
+        text-align: center;
+        font-family: Neucha;
+        margin-bottom: 10px;
+        font-size: 26px; }
+      /* line 158, scss/index.scss */
+      main section div.content.main form div {
+        margin-top: 10px; }
+      /* line 161, scss/index.scss */
+      main section div.content.main form span.required::after {
+        content: "*";
+        color: #c00;
+        font-family: Tahoma, sans-serif;
+        font-size: 14px;
+        line-height: 1px;
+        cursor: help; }
+      /* line 169, scss/index.scss */
+      main section div.content.main form button {
+        display: block;
+        margin: 20px auto 0; }
+  /* line 175, scss/index.scss */
+  main section div.content div.galery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    /* line 179, scss/index.scss */
+    main section div.content div.galery div.item {
+      flex-grow: 1;
+      width: 250px;
+      margin: 30px 15px;
+      box-sizing: border-box;
+      text-align: center; }
+      /* line 185, scss/index.scss */
+      main section div.content div.galery div.item div.image {
+        position: relative;
+        border-radius: 30px;
+        background: no-repeat center/cover;
+        height: 30vh;
+        flex-grow: 1;
+        width: 100%; }
+        /* line 192, scss/index.scss */
+        main section div.content div.galery div.item div.image div.popover {
+          border-radius: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          display: flex;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          transition-duration: 500ms;
+          opacity: 0; }
+          /* line 204, scss/index.scss */
+          main section div.content div.galery div.item div.image div.popover:hover {
+            opacity: 1;
+            background-color: rgba(0, 0, 0, 0.5); }
+      /* line 210, scss/index.scss */
+      main section div.content div.galery div.item h3 {
+        height: 80px; }
+        /* line 212, scss/index.scss */
+        main section div.content div.galery div.item h3.small {
+          height: auto;
+          font-family: Neucha;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px; }
+      /* line 220, scss/index.scss */
+      main section div.content div.galery div.item h4 {
+        margin: 15px 0; }
+      /* line 223, scss/index.scss */
+      main section div.content div.galery div.item h4:first-of-type {
+        color: #a9a9a9;
+        font-size: 32px;
+        text-decoration-line: line-through; }
+      /* line 228, scss/index.scss */
+      main section div.content div.galery div.item h4:last-of-type {
+        font-size: 42px;
+        color: #cd5c5c;
+        animation: scale 1s infinite alternate; }
+      /* line 233, scss/index.scss */
+      main section div.content div.galery div.item p {
+        height: 60px; }
+    /* line 237, scss/index.scss */
+    main section div.content div.galery div.row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      /* line 242, scss/index.scss */
+      main section div.content div.galery div.row div.info {
+        box-sizing: border-box;
+        padding: 0 20px;
+        width: 320px;
+        flex-grow: 1;
+        margin: 20px auto; }
+      /* line 249, scss/index.scss */
+      main section div.content div.galery div.row div.img {
+        text-align: center;
+        flex-grow: 1;
+        width: 320px;
+        margin: 20px auto; }
+        /* line 254, scss/index.scss */
+        main section div.content div.galery div.row div.img img {
+          border-radius: 30px;
+          width: 100%;
+          max-width: 500px; }
+
+/* line 263, scss/index.scss */
+main section div.price-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vw;
+  background-image: url("../img/finger.png");
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed; }
+
+/* line 275, scss/index.scss */
+main footer {
+  font-family: Lobster;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  background-color: #252830;
+  padding: 60px 0;
+  color: white; }
+
+/* line 286, scss/index.scss */
+button {
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  background: linear-gradient(to bottom, #d9a7c7 0%, #fffcdc 100%);
+  box-sizing: border-box;
+  transform: scale(1);
+  transition: transform 0.1s ease;
+  line-height: 1;
+  white-space: nowrap;
+  text-align: center;
+  font-style: normal;
+  color: #030303;
+  padding: 13px 20px;
+  border-radius: 255px;
+  border-width: 0;
+  margin: auto; }
+  /* line 304, scss/index.scss */
+  button.margin {
+    margin-top: 50px; }
+
+/* line 309, scss/index.scss */
+label {
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.25;
+  padding-left: 15px; }
+
+/* line 317, scss/index.scss */
+input {
+  box-sizing: border-box;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  width: 100%;
+  padding: 3px 10px;
+  border-radius: 30px;
+  border: 1px solid gray; }
+  /* line 328, scss/index.scss */
+  input[type="checkbox"] {
+    width: auto; }
+
+/* line 332, scss/index.scss */
+textarea {
+  box-sizing: border-box;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  padding: 3px 10px;
+  font-size: 20px;
+  border: 1px solid gray;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 200px;
+  min-height: 20px;
+  border-radius: 30px; }
+
+/* line 348, scss/index.scss */
+select {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  width: 100%;
+  padding: 3px 10px;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 30px; }
+
+/* line 360, scss/index.scss */
+a {
+  text-decoration: none;
+  color: #252830; }
+  /* line 363, scss/index.scss */
+  a:visited {
+    color: #252830; }
+  /* line 366, scss/index.scss */
+  a:active {
+    color: #252830; }
+
+@keyframes scale {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.1); } }

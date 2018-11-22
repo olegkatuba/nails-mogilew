@@ -1,0 +1,7 @@
+@font-face {
+font-family: 'Comfortaa';
+src: url('//s.lpmtr.ru/web/user/fonts/comfortaa/comfortaa_light.woff') format('woff'); url('//s.lpmtr.ru/web/user/fonts/comfortaa/comfortaa_light.ttf') format('ttf');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}

@@ -1,0 +1,11 @@
+{
+    "db": {
+        "connectionString": ""
+    },
+    "telegramBot": {
+        "token": ""
+    },
+    "email": {
+        
+    }
+}

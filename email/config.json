@@ -1,0 +1,10 @@
+{
+    "pool": true,
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+        "user": "autoEpmOrpTesting@gmail.com",
+        "pass": "EpmOrp#1"
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "nails-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.3.0"
+  },
+  "scripts": {
+    "start-dev": "nodemon --ignore admin/ ./index.js --exec babel-node",
+    "start": "./node_modules/.bin/babel-node index.js"
+  },
+  "author": "Aleh Katsiuba",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "koa": "^2.6.1",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.3.10",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
